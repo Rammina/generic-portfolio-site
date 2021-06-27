@@ -44,9 +44,9 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
-  line-height: 40px;
-  margin-right: 40px;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-right: 2rem;
   font-family: "Google Sans Medium";
 }
 
