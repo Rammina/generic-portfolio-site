@@ -6,7 +6,7 @@
   color: white;
 }
 .icon-button {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .icon-button i {
@@ -24,7 +24,7 @@
   -ms-user-select: none;
   user-select: none;
   width: 2.6rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 /* .facebook i {

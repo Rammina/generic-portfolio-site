@@ -7,23 +7,23 @@
 
 .card-title {
   font-family: "Google Sans Medium";
-  font-size: 23px;
+  font-size: 1.4375rem;
   /* color: #000000; */
 }
 
 .card-subtitle {
   font-family: "Google Sans Medium";
-  font-size: 18px;
+  font-size: 1.125rem;
   /* color: #000000; */
-  margin-top: 7px;
-  margin-bottom: 5px;
+  margin-top: 0.4375rem;
+  margin-bottom: 0.3125rem;
 }
 
 .card-img {
-  width: 200px;
+  width: 12.5rem;
   height: auto;
   border-radius: 50%;
-  padding: 10px;
+  padding: 0.625rem;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
   /* background: transparent; */
@@ -36,7 +36,7 @@
   /* width: 100%; */
   /* background-color:#6c63ff99; */
   border-radius: 7px 7px 0px 0px;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .body-header-title {
@@ -49,9 +49,9 @@
 }
 .duration {
   font-family: "Google Sans Regular";
-  font-size: 16px;
+  font-size: 1rem;
   /* color: #212121; */
-  padding-right: 10px;
+  padding-right: 0.625rem;
   float: right;
 }
 
@@ -66,8 +66,8 @@
 }
 
 .content-list {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   font-family: "Google Sans Regular";
 }
 
@@ -78,15 +78,15 @@
   border-right: 1px solid #d9dbdf;
   border-radius: 7px;
   width: 90%;
-  margin: 10px;
+  margin: 0.625rem;
   box-shadow: 5px 5px 5px #d9dbdf;
 }
 
 .visit-btn {
   /* background-color: #6c63ff99; */
   display: inline-block;
-  margin: 0px 10px 10px 0px;
-  padding: 10px;
+  margin: 0px 0.625rem 0.625rem 0px;
+  padding: 0.625rem;
   border-radius: 7px;
   border: 0px;
   float: right;
@@ -132,7 +132,7 @@
   }
 
   .card-img {
-    width: 200px;
+    width: 12.5rem;
   }
 
   .card-body {
@@ -140,10 +140,10 @@
   }
 
   .card-title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .card-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }

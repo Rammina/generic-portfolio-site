@@ -4,7 +4,7 @@ import { lightTheme } from "../../theme";
 import styled from "styled-components";
 
 export const ToggleDiv = styled.div`
-  margin-top: 40px;
+  margin-top: 2.5rem;
   margin-right: 5px;
   float: right;
   display: flex;
@@ -12,11 +12,11 @@ export const ToggleDiv = styled.div`
 `;
 
 export const SunSvg = styled.svg`
-  margin-right: 10px;
+  margin-right: 0.625rem;
 `;
 
 export const MoonSvg = styled.svg`
-  margin-left: 10px;
+  margin-left: 0.625rem;
 `;
 
 export default class ToggleSwitch extends Component {

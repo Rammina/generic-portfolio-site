@@ -1,5 +1,5 @@
 .achievement-heading {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 400;
   line-height: normal;
   margin: 0px;
@@ -7,16 +7,16 @@
 .achievement-subtitle {
   text-transform: uppercase;
   margin: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .card-image {
-  height: 250px;
-  width: 250px;
+  height: 15.625rem;
+  width: 15.625rem;
 }
 
 .card-title {
   color: black;
-  font-size: 30px;
+  font-size: 1.875rem;
   margin: 0px;
   font-weight: 400;
   line-height: normal;
@@ -24,14 +24,14 @@
 
 .card-subtitle {
   color: #868e96;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .certificate-card {
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0.625rem 1.875rem -0.9375rem;
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: 1px solid rgba(211, 211, 211, 0.397);
 }
 
@@ -40,14 +40,14 @@
 }
 
 .certificate-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1.25rem 1.875rem -0.625rem;
 }
 .certificate-image-div {
   text-align: center;
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 1rem 1rem;
 }
 .certificate-card-footer {
@@ -58,7 +58,7 @@
 .certificate-card-footer > p {
   color: #333333;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   text-align: center;
 }
 .certificate-card-footer > p:hover {
@@ -67,16 +67,16 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .achievement-heading {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 768px) {
   .achievement-heading {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
   }
   .achievement-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: normal;
     text-align: center;
   }

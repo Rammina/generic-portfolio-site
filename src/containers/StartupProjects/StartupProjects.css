@@ -4,7 +4,7 @@
 
 .startup-projects-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .starup-project-image > img {
@@ -14,7 +14,7 @@
 
 .project-card-head {
   color: rgb(36, 41, 46);
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 700;
   letter-spacing: -0.5px;
   margin: 0px;
@@ -38,7 +38,7 @@
     display: none;
   }
   .project-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
   }
 }

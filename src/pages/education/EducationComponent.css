@@ -30,38 +30,38 @@
 }
 
 .heading-text {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .heading-sub-text {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Google Sans Regular";
   text-align: center;
 }
 
 @media (max-width: 1380px) {
   .heading-text {
-    font-size: 50px;
-    margin-top: 80px;
+    font-size: 3.125rem;
+    margin-top: 5rem;
   }
   .heading-sub-text {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 }
 
 @media (max-width: 768px) {
   .heading-text {
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
   }
 
   .heading-sub-text {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .heading-div {

@@ -1,14 +1,14 @@
 .pull-requests-header-div {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .pull-requests-header {
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1.1;
   font-family: "Google Sans Regular";
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 .pull-request-body-div {
@@ -18,16 +18,16 @@
 
 @media (max-width: 1380px) {
   .pull-requests-header {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 }
 
 @media (max-width: 768px) {
   .pull-requests-header-div {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   .pull-requests-header {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 }

@@ -42,7 +42,8 @@ class ExperienceCard extends Component {
             <div className="experience-card-heading-right">
               <p
                 className="experience-card-duration"
-                style={{ color: theme.secondaryText }}
+                // style={{ color: theme.secondaryText }}
+                style={{ color: "#333" }}
               >
                 {experience["duration"]}
               </p>
@@ -54,10 +55,7 @@ class ExperienceCard extends Component {
               </p>
             </div>
           </div>
-          <p
-            className="experience-card-description"
-            style={{ color: theme.text }}
-          >
+          <p className="experience-card-description" style={{ color: "#444" }}>
             {experience["description"]}
           </p>
         </div>
