@@ -3,7 +3,15 @@
   padding: 1.25rem 0.625rem;
   margin: 0px auto;
   margin-top: 4rem;
+  /* Remove this if you want the content to stretch to the end of the website */
+  max-width: 70rem;
 }
+
+#greeting {
+  /* Remove this if you want the content to stretch to the end of the website */
+  max-width: 70rem;
+}
+
 .greet-main {
   width: 90%;
   padding: 1.25rem 0.625rem;
@@ -44,8 +52,8 @@
 }
 
 .greeting-text-p {
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
   margin-right: 2rem;
   font-family: "Google Sans Medium";
 }
@@ -74,7 +82,7 @@
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 1.5625rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   .greeting-text-p {

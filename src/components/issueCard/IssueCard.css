@@ -179,9 +179,16 @@
 }
 
 #tooltip-top > .tooltip-inner {
-  background-color: #000;
+  font-family: "Google Sans Regular";
+  font-weight: normal;
+  padding: 0.5rem 0.7rem;
+  background-color: #222;
   color: #fff;
-  border: 1px solid #062e56;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  /* border: 1px solid #062e56; */
 }
 
 #tooltip-top > .tooltip-arrow {
